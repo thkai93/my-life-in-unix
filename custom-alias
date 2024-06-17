@@ -1,4 +1,3 @@
-cat <<EOT >> ~/.bash_aliases
 # Custom Aliases
 
 # Directory Navigation
@@ -41,5 +40,3 @@ alias ga='git add'
 alias gc='git commit'
 alias gs='git status'
 alias gl='git log'
-EOT
-
