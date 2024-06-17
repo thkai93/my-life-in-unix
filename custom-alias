@@ -1,0 +1,45 @@
+cat <<EOT >> ~/.bash_aliases
+# Custom Aliases
+
+# Directory Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias c='clear'
+
+# Listing and Navigation
+alias ls='ls --color=auto'
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
+alias tree='tree -C'
+
+# File Operations
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# Process Management
+alias psa='ps aux'
+alias psg='ps aux | grep'
+
+# System Information
+alias df='df -h'
+alias du='du -h'
+alias free='free -h'
+alias top='top -o +%CPU'
+
+# Network and Connectivity
+alias ping='ping -c 5'
+alias myip='curl ifconfig.me'
+
+# File Searching
+alias findf='find . -type f -name'
+
+# Git Aliases (if using Git)
+alias ga='git add'
+alias gc='git commit'
+alias gs='git status'
+alias gl='git log'
+EOT
+
