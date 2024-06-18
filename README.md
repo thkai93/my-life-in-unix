@@ -19,7 +19,17 @@ In the journey of mastering Unix, maintaining an organized and efficient environ
 
 Here's the directory structure that forms the backbone of this repository:
 
-omo/ ├── assets/ # Store images, icons, and other media files ├── bin/ # Executable scripts and binaries ├── config/ # Configuration files for various tools and applications ├── docs/ # Documentation files ├── logs/ # Log files ├── tmp/ # Temporary files and directories ├── lib/ # Libraries and modules ├── dist/ # Distributable packages and build artifacts ├── notes/ # Personal notes and documentation ├── secrets/ # Encrypted or sensitive information
+omo/
+├── assets/    # Store images, icons, and other media files
+├── bin/       # Executable scripts and binaries
+├── config/    # Configuration files for various tools and applications
+├── docs/      # Documentation files
+├── logs/      # Log files
+├── tmp/       # Temporary files and directories
+├── lib/       # Libraries and modules
+├── dist/      # Distributable packages and build artifacts
+├── notes/     # Personal notes and documentation
+└── secrets/   # Encrypted or sensitive information
 
 Each directory serves a specific purpose, making it easy to locate and manage your files.
 
