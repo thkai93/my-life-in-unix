@@ -18,7 +18,7 @@ In the journey of mastering Unix, maintaining an organized and efficient environ
 ## Directory Structure
 
 Here's the directory structure that forms the backbone of this repository:
-
+```
 omo/
 ├── assets/    # Store images, icons, and other media files
 ├── bin/       # Executable scripts and binaries
@@ -30,7 +30,7 @@ omo/
 ├── dist/      # Distributable packages and build artifacts
 ├── notes/     # Personal notes and documentation
 └── secrets/   # Encrypted or sensitive information
-
+```
 Each directory serves a specific purpose, making it easy to locate and manage your files.
 
 ## Helper Functions
