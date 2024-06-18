@@ -1,0 +1,79 @@
+# Custom Aliases
+
+# Directory Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias c='clear'
+
+# Listing and Navigation
+alias ls='ls --color=auto'  # Non-POSIX
+alias ll='ls -alF'
+alias la='ls -a'
+alias lla='ls -la'
+alias lrt='ls -lrt'
+alias tree='tree -C'  # Non-POSIX
+
+# File Operations
+alias cp='cp -i'
+alias mv='mv -i'
+alias rm='rm -i'
+
+# Process Management
+alias psa='ps aux'  # Non-POSIX
+alias psg='ps aux | grep'  # Non-POSIX
+
+# System Information
+alias df='df -h'  # Non-POSIX
+alias du='du -h'  # Non-POSIX
+alias free='free -h'  # Non-POSIX
+alias top='top -o +%CPU'  # Non-POSIX
+
+# Network and Connectivity
+alias ping='ping -c 5'  # Non-POSIX
+alias myip='curl ifconfig.me'  # Non-POSIX
+
+# File Searching
+alias findf='find . -type f -name'
+
+# Git Aliases (if using Git)
+alias ga='git add'
+alias gc='git commit'
+alias gs='git status'
+alias gl='git log'
+
+# Navigate up one directory
+alias up='cd ..'
+
+# Clear the terminal screen
+alias cls='clear'
+
+# Docker aliases
+alias dcu='docker-compose up'  # Non-POSIX
+alias dcd='docker-compose down'  # Non-POSIX
+
+# Open current directory in file explorer
+# Detect OS and set the open command
+if command -v xdg-open > /dev/null; then
+    alias open='xdg-open .'
+elif command -v open > /dev/null; then
+    alias open='open .'
+elif command -v explorer.exe > /dev/null; then
+    alias open='explorer.exe .'
+else
+    alias open='echo "No suitable open command found"'
+fi
+
+# Custom directory navigation based on your setup
+alias omo='cd ~/omo'
+alias assets='cd ~/omo/assets'
+alias bin='cd ~/omo/bin'
+alias config='cd ~/omo/config'
+alias docs='cd ~/omo/docs'
+alias logs='cd ~/omo/logs'
+alias tmp='cd ~/omo/tmp'
+alias lib='cd ~/omo/lib'
+alias dist='cd ~/omo/dist'
+alias notes='cd ~/omo/notes'
+alias secrets='cd ~/omo/secrets'
+
