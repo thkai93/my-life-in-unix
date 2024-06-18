@@ -22,6 +22,7 @@ Here's the directory structure that forms the backbone of this repository:
 omo/
 ├── assets/    # Store images, icons, and other media files
 ├── bin/       # Executable scripts and binaries
+
 ├── config/    # Configuration files for various tools and applications
 ├── docs/      # Documentation files
 ├── logs/      # Log files
