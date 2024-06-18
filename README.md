@@ -18,7 +18,7 @@ In the journey of mastering Unix, maintaining an organized and efficient environ
 ## Directory Structure
 
 Here's the directory structure that forms the backbone of this repository:
-```
+```plaintext
 omo/
 ├── assets/    # Store images, icons, and other media files
 ├── bin/       # Executable scripts and binaries
@@ -68,3 +68,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 --- 
 
 Happy Unix-ing!
+
+## Disclaimer
+
+This repository includes code and documentation created with the assistance of ChatGPT.
+
