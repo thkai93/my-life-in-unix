@@ -1,6 +1,6 @@
 # Life on Unix
 
-Welcome to **Life on Unix** – a comprehensive repository designed to streamline and enhance your Unix-based workflows. This project consolidates essential directory structures, helpful scripts, and various utilities that can simplify daily tasks and improve productivity on Unix systems.
+Welcome to **Life on Unix** – it is my attempt at creating a comprehensive directory designed to streamline and enhance your Unix-based workflows. This project consolidates essential directory structures, helpful scripts, and various utilities that can simplify daily tasks and improve productivity on Unix systems.
 
 ## Table of Contents
 
