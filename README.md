@@ -47,9 +47,12 @@ The repository includes a variety of helper functions to automate and simplify c
 
 To get started with **Life on Unix**, clone the repository and explore the various directories and scripts. Customize the setup to fit your workflow and leverage the helper functions to boost your productivity.
 
-```bash
+```sh
 git clone https://github.com/thkai93/life-on-unix.git
 cd life-on-unix
+./setup.sh config/config.properties
+./copy_helper_bin.sh
+./update_zshrc.sh   # Optional
 ```
 
 Feel free to adapt the provided structure and scripts to meet your unique requirements.
