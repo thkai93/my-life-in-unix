@@ -23,7 +23,7 @@ fi
 mkdir -p "$DEST_DIR"
 
 # Copy all PDF, Excel, and Word documents from the source to the destination directory
-find "$SRC_DIR" -type f \( -name "*.pdf" -o -name "*.xls" -o -name "*.xlsx" -o -name "*.doc" -o -name "*.docx" \) -exec cp {} "$DEST_DIR" \;
+find "$SRC_DIR" -type f \( -name "*.pdf" -o -name "*.xls" -o -name "*.xlsx" -o -name "*.doc" -o -name "*.docx" \) -exec mv {} "$DEST_DIR" \;
 
 # Check if there are still files left in the tmp directory
 REMAINING_FILES=$(find "$SRC_DIR" -type f \( -name "*.pdf" -o -name "*.xls" -o -name "*.xlsx" -o -name "*.doc" -o -name "*.docx" \))
