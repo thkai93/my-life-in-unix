@@ -80,3 +80,8 @@ alias secrets='cd ~/omo/secrets'
 # Custom helper functions
 alias clrtmp='sh ~/omo/bin/copy_documents.sh'
 alias braindump='sh ~/omo/bin/brain_dump.sh'
+
+# Custom application to open
+alias teams='open -a "Microsoft Teams Classic"'
+alias outlook='open -a Microsoft Outlook"'
+
